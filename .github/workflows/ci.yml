@@ -74,7 +74,7 @@ jobs:
 #        id: auth
 #        name: Authenticate to GCP
 #        with:
-#          project_id: 'Project 1' # update with your project ID
+#          project_id: 'project-1-451317' # update with your project ID
 #          workload_identity_provider: 'projects/309249079178/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your Workload Identity Pool
 
 #      # configure/login with docker
@@ -94,4 +94,4 @@ jobs:
 #          context: ./
 #          file: ./Dockerfile
 #          push: true
-#          tags: [us]-docker.pkg.dev/cc-spring2025/dansc0de/fastapi-server:v2
+#          tags: [us]-us-docker.pkg.dev/project-1-451317/assignment2
